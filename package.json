@@ -4,17 +4,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest --run",
     "build": "npx tsc",
     "start": "node dist/main.js",
-    "dev": "npx tsc && node dist/main.js" 
- },
+    "dev": "npx tsc && node dist/main.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@types/node": "^24.7.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   }
 }

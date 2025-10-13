@@ -6,3 +6,4 @@ dist/
 .npmrc
 coverage/
 tmp/
+repl.log

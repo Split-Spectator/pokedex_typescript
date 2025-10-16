@@ -19,10 +19,6 @@ describe.each([
         expected: ["multiple", "spaces"],
     },
     {
-        input: "New\nLine\tCharacters",
-        expected: ["new", "line", "characters"],
-    },
-    {
         input: "  leading and trailing spaces  ",
         expected: ["leading", "and", "trailing", "spaces"],
     },

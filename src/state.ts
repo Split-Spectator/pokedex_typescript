@@ -13,6 +13,10 @@ export type State = {
   commands: Record<string, CLICommand>;
   pokeapi: PokeAPI
   pokedex: Record<string, Pokemon>
+  currentArea?: {
+    name: string;
+    spawns: string[]; 
+  } | null;
   nextLocationsURL?: string | null,
   prevLocationsURL?: string | null, 
 };
